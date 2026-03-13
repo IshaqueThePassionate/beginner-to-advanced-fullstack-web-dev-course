@@ -21,7 +21,7 @@ Imagine you are sitting at home and you want to see the latest Movie on **Netfli
 At that exact moment, your browser (the **Client**) creates a "Request" packet. It’s like writing a letter that says, *"Hey, I want to see the homepage of this site. Please send it to my IP address."*
 
 
-![diagram](./Client%20Server%20Architecture.png)
+![diagram](./images/Client%20Server%20Architecture.png)
 
 ---
 
@@ -30,7 +30,7 @@ At that exact moment, your browser (the **Client**) creates a "Request" packet. 
 Every device on the planet has a unique "address" so the internet knows where to send data.
 Before that request can leave your house, the internet needs to know where to send it. The problem is, the internet doesn't understand "Netflix.com"—it only understands these look like numbers: `142.250.190.46`.
 
-![Ip Address Diagram](./ip_addresses.webp)
+![Ip Address Diagram](./images/ip_addresses.webp)
 
 * Since humans can't remember numbers like that, we use **Domain Names** (like `google.com`).
 
@@ -39,7 +39,7 @@ Before that request can leave your house, the internet needs to know where to se
 
 The **DNS (Domain Name System)** is basically the internet's contact list. When you type a website name, your browser checks the DNS to find the real IP address of the server so it can connect to it.
 
-![diagram](./DNS-Explained.jpg)
+![diagram](./images/DNS-Explained.jpg)
 
 This is where the **DNS** comes in. Think of it as your browser making a quick phone call to a giant digital phonebook:
 
@@ -58,7 +58,7 @@ When a browser and a server talk to each other this Web communication have to fo
  **HTTPS:** The "S" stands for **Secure**. It means the data is encrypted. If you're building a site today, **always use HTTPS**. It keeps user data (like passwords) safe from people trying to spy on the connection.
 
 
- ![HTTP and HTTPS diagram](./http-vs-https.webp)
+ ![HTTP and HTTPS diagram](./images/http-vs-https.webp)
 
 
 ### The Important Technical Walkthrough
@@ -67,7 +67,7 @@ When a browser and a server talk to each other this Web communication have to fo
 * **HTTPS (HyperText Transfer Protocol Secure):** This uses **TLS (Transport Layer Security)** to encrypt the communication. Before any data is sent, the browser and server perform a "Handshake" to exchange cryptographic keys. Once the connection is established, all data sent back and forth is encrypted. Even if someone intercepts the data, they only see an unreadable string of characters.
 
 
-![HTTP and HTTPS diagram](./TLS.avif)
+![HTTP and HTTPS diagram](./images/TLS.avif)
 
 
 ### How to Implement HTTPS in your Projects
@@ -113,7 +113,7 @@ Once the IP is found, the browser sends an **HTTP request** to the server asking
 
 So, even though the user types a domain name, the actual communication happens using **IP addresses and HTTP requests**.
 
-![Response](./resopnse%20overall.png)
+![Response](./images/resopnse%20overall.png)
 
 
 The Server then sends a Response back to you. Along with the files, it sends a Status Code.
@@ -134,7 +134,7 @@ If you typed the URL wrong, it sends back a 404 Not Found (which is basically th
 
 Once your browser gets the HTML, CSS, and JS files, it doesn't just show the text. It "Renders" it.
 
-![](./rendering.webp)
+![](./images/rendering.webp)
 
 1. It reads the **HTML** to see what content is there (text, images).
 2. It looks at the **CSS** to see how it should look (colors, fonts).
