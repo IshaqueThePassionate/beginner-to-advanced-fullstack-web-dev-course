@@ -1,5 +1,5 @@
 
-# Module 01: Introduction to HTML
+# Module 01: Complete Introduction to HTML
 
 HTML is the absolute foundation of the web. Before a website looks beautiful (CSS) or becomes "smart" (JavaScript), it must have a structure. HTML forms the **backbone** of every webpage you see.
 
