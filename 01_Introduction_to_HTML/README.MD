@@ -30,54 +30,6 @@ Think of building a website like building a car:
 * **Standardization:** HTML5 is the latest and most stable version used by the industry today.
 
 ---
-
-## 3. The Anatomy of an HTML Tag
-
-A **Tag** consists of meaningful text enclosed in angle brackets `< >`.
-
-* **Opening Tag:** `<p>` (Starts the instruction)
-* **Content:** This is my text.
-* **Closing Tag:** `</p>` (Ends the instruction)
-* **The Element:** The combination of the tags and the content together.
-
----
-
-## 4. The "Boilerplate" Structure
-
-Every HTML file requires a standard set of instructions to work correctly. In modern editors like **VS Code**, you don't have to type this manually.
-
-### The Shortcut ⚡
-
-Simply type `!` and press **Enter** or **Tab**. This will automatically generate the "Boilerplate" code for you.
-
-### The Code Breakdown
-
-```html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My First Web Page</title>
-</head>
-<body>
-    <h1>Welcome to My Fullstack Journey</h1>
-    <p>This is a paragraph created using HTML tags.</p>
-</body>
-</html>
-
-```
-
- **`<!DOCTYPE html>`:** This tells the browser, "I am using the latest version of HTML (HTML5)." Without this, the browser might use "Quirks Mode" and display your site incorrectly.
-
-**`<html lang="en">`:** The root element. The lang attribute helps search engines (SEO) and screen readers know the language of the site.
-
- **`<head>`:** This is the "Brain" of the page. It contains metadata (info about the page) that the user doesn't see, like the title or character encoding (UTF-8).
-
- **`<body>`:** This is the "Heart" of the page. Everything written here is what the user actually sees on their screen.
-
----
-
 ## 5. History at a Glance
 
 * **1989:** Tim Berners-Lee establishes the World Wide Web (WWW).
@@ -85,7 +37,6 @@ Simply type `!` and press **Enter** or **Tab**. This will automatically generate
 * **1999:** HTML 4.01 is standardized (still used by many today).
 * **Today:** **HTML5** is the global standard, offering the most stable and feature-rich experience.
 
----
 
 ## Quick Exercise: Inspect the Web
 
